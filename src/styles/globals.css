@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input {
+  width: 3rem !important; /* w-12 */
+  height: 3.5rem !important; /* h-14 */
+  padding: 0.5rem !important; /* p-2 */
+  border-width: 0px !important; /* border-1 */
+  border-color: #d1d5db !important; /* border-gray-300 */
+  background-color: #e5e7eb !important; /* bg-gray-200 */
+  border-radius: 0.5rem !important; /* rounded-lg */
+  text-align: center !important; /* text-center */
+  font-size: 1.125rem !important; /* text-lg */
+  font-weight: 600 !important; /* font-semibold */
+  outline: none !important; /* focus:outline-none */
+}
+
+.input:focus {
+  border-color: #d1d5db !important; /* focus:border-gray-300 */
+  border-width: 2px !important; /* focus:border-2 */
+}
